@@ -1,0 +1,18 @@
+body {
+  background: linear-gradient(#43C6AC, #F8FFAE);
+  font-family: helvetica;
+}
+
+.clPanel{
+	background: white;
+	border: solid;
+	width: 80%;
+	min-height: 100px;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	border-radius: 30px;
+	/*padding: 10px;*/
+	/*margin: 20px;*/
+	box-shadow: 10px 10px 30px;
+}
