@@ -1,0 +1,16 @@
+.calculatorcard {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	border-radius: 50px; /* 50px rounded corners */
+	border: 2px solid;
+	text-align: center;
+	background-color: #FFF8DC;
+	width: 320px;
+  	padding: 10px;
+  	margin: 0;
+  	position: absolute;
+  	left: 50%; /*left top and transform goes togather to center the card in the middle*/
+    top: 75%;
+    transform: translate(-50%, -50%);
+}
+
