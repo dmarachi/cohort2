@@ -13,7 +13,7 @@
 	function getTotal() {
 		let w = 0;
 		for(q = 0; q < array.length; q++) {
-			w += array[q];
+			w += Number(array[q]);
 		}
 		console.log(w);
 		document.getElementById("output").value = w;
